@@ -1,0 +1,759 @@
+body {
+	font:"Georgia, Times New Roman, Times, serif";
+	font-size:14px;
+	margin: 0;
+	padding: 0;
+	background-image:url(images/gradient_background.png);
+	background-repeat:repeat;
+	word-spacing:8px;
+	color:#000;
+}
+
+.container {
+	width:1049px;
+	height:100%;
+	margin: 0 auto;
+}
+
+.header {
+	width:1049px;
+	height:703px;
+}
+
+#sub_navigation {
+	background-color: #000;
+	position: absolute;
+	width: 1049px;
+	height: 35px;
+	word-spacing:20px;
+}
+
+#sub_navigation a:link, #sub_navigation a:active, #sub_navigation a:visited {
+	color:#FFF;
+	text-decoration:none;
+}
+
+#sub_navigation a:hover {
+	color:#FF0;
+	text-decoration:none;
+}
+
+#banner_left {
+	background-image:url(images/left_creeper_banner.png);
+	position:absolute;
+	width:162px;
+	height:158px;
+	background-repeat:no-repeat;
+	top:35px;
+	margin-left:21px;
+}
+
+#banner_right {
+	background-image:url(images/right_steve_banner.png);
+	position:absolute;
+	width:162px;
+	height:158px;
+	background-repeat:no-repeat;
+	top:35px;
+	margin-left:872px;
+}
+
+#logo {
+	background-image: url(images/logo.png);
+	position: relative;
+	margin-left:230px;
+	width: 597px;
+	height: 212px;
+	background-repeat: no-repeat;
+	top: 57px;
+}
+
+
+#navigation {
+	background-image:url(images/navigation_bar.png);
+	background-repeat:repeat-x;
+	position:relative;
+	width:997px;
+	height:58px;
+	margin-left:25px;
+}
+
+#schedule {
+	background-image:url(images/schedule.png);
+	position:absolute;
+	width:141px;
+	height:15px;
+	background-repeat:no-repeat;
+	top:653px;
+	margin-left:194px;
+}
+
+#maps {
+	background-image:url(images/maps.png);
+	position:absolute;
+	width:96px;
+	height:15px;
+	background-repeat:no-repeat;
+	top:653px;
+	margin-left:374px;
+}
+
+#tickets {
+	background-image:url(images/tickets.png);
+	position:absolute;
+	width:112px;
+	height:15px;
+	top:653px;
+	margin-left:482px;
+}
+
+#news {
+	background-image:url(images/news.png);
+	position:absolute;
+	width:70px;
+	height:15px;
+	top:653px;
+	margin-left:640px;
+}
+
+#about {
+	background-image:url(images/about.png);
+	position:absolute;
+	width:88px;
+	height:15px;
+	top:653px;
+	margin-left:750px;
+}
+
+.content {
+	height:641px;
+	width:1049px;
+	color:#000;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	word-spacing:2px;
+}
+
+#body_texthome1 {
+	position:absolute;
+	top:60px;
+	margin-left:32px;
+	width:500px;
+	height:auto;
+	color:#000;
+	text-decoration:none;
+}
+
+#body_texthome2 {
+	position:absolute;
+	top:325px;
+	margin-left:32px;
+	width:538px;
+	height:auto;
+	color:#000;
+	text-decoration:none;
+}
+
+#body_holder {
+	background-image:url(images/info_box_index.png);
+	position:relative;
+	width:auto;
+	height:559px;
+	background-repeat:repeat-x;
+	top:40px;
+}
+
+#image1 {
+	background-image:url(images/kids_capes_pic.png);
+	position:absolute;
+	width:356px;
+	height:250px;
+	background-repeat:no-repeat;
+	top:750px;
+	margin-left:662px;
+}
+
+#image2 {
+	background-image:url(images/pumpkin_guys_pic.png);
+	position:absolute;
+	width:355px;
+	height:275px;
+	background-repeat:no-repeat;
+	top:999px;
+	margin-left:662px;
+}
+
+#divider {
+	background-image:url(images/divider_index.png);
+	position:absolute;
+	width:586px;
+	height:3px;
+	background-repeat:no-repeat;
+	top:992px;
+	margin-left:32px;
+}
+
+#home_text1 {
+	background-image:url(images/Cosplay_Competition.png);
+	position:absolute;
+	width:249px;
+	height:30px;
+	background-repeat:no-repeat;
+	top:752px;
+	margin-left:32px;
+}
+
+#home_text2 {
+	background-image:url(images/TheSecretFamous.png);
+	position:absolute;
+	width:220px;
+	height:24px;
+	top:1017px;
+	margin-left:32px;
+}
+
+.footer {
+	background:#000;
+	position:absolute;
+	width:1049px;
+	height:169px;
+}
+
+.footer a:link, .footer a:active, a:visited {
+	color:#FFF;
+	text-decoration:none;
+}
+
+.footer a:hover {
+	color:#FF0;
+	text-decoration:none;
+}
+
+#facebook_icon {
+	background-image:url(images/facebook_icon.png);
+	position:absolute;
+	width:56px;
+	height:56px;
+	top:93px;
+	margin-left:408px;
+}
+
+#twitter_icon {
+	background-image:url(images/twitter_icon.png);
+	position:absolute;
+	width:58px;
+	height:58px;
+	top:93px;
+	margin-left:484px;
+}
+
+#mojang_icon {
+	background-image:url(images/mojang_icon.png);
+	position:absolute;
+	width:57px;
+	height:57px;
+	top:93px;
+	margin-left:563px;
+}
+
+#image_scroll4 {
+	background-image:url(images/schedule_banner1.png);
+	position:absolute;
+	width:997px;
+	height:333px;
+	z-index:2;
+	top:297px;
+	margin-left:11px;
+}
+
+#body_holder_schedule {
+	background-image:url(images/body_holder_schedule.png);
+	position:absolute;
+	width:1049px;
+	height:598px;
+	top:709px;
+}
+
+#image3 {
+	background-image:url(images/schedule_image_stage.png);
+	position:absolute;
+	width:444px;
+	height:273px;
+	top:720px;
+	margin-left:567px;
+}
+
+#image4 {
+	background-image:url(images/schedule_image_reveals.png);
+	position:absolute;
+	width:444px;
+	height:273px;
+	top:1038px;
+	margin-left:570px;
+}
+
+#schedule_infobox {
+	background-image:url(images/schedule_info_box.png);
+	position:absolute;
+	width:450px;
+	height:555px;
+	z-index:1;
+	top:735px;
+	margin-left:61px;
+}
+
+#schedule_textbox {
+	background-image:url(images/schedule_textbox.png);
+	position:absolute;
+	width:412px;
+	height:509px;
+	z-index:2;
+	top:767px;
+	margin-left:81px;
+}
+
+#body_textschedule1 {
+	position:absolute;
+	top:79px;
+	margin-left:20px;
+	width:236px;
+	height:auto;
+}
+
+#body_textschedule2 {
+	position:absolute;
+	top:259px;
+	margin-left:20px;
+	width:236px;
+	height:auto;
+}
+
+#body_textschedule3 {
+	position:absolute;
+	top:404px;
+	margin-left:20px;
+	width:236px;
+	height:auto;
+}
+
+#left_tab {
+	background-image:url(images/tab_left.png);
+	position:absolute;
+	width:215px;
+	height:50px;
+	z-index:3;
+	top:735px;
+	margin-left:81px;
+}
+
+#events_date1 {
+	position:absolute;
+	top:7px;
+	margin-left:14px;
+	width:190px;
+	height:auto;
+	font-size:18px;
+}
+
+#right_tab {
+	background-image:url(images/tab_right.png);
+	position:absolute;
+	width:216px;
+	height:50px;
+	z-index:3;
+	top:735px;
+	margin-left:278px;
+}
+
+#events_date2 {
+	position:absolute;
+	top:7px;
+	margin-left:18px;
+	width:230px;
+	height:auto;
+	font-size:18px;
+}
+
+#nether_box {
+	background-image:url(images/nether_box.png);
+	position:absolute;
+	width:412px;
+	height:66px;
+	z-index:4;
+	top:768px;
+	margin-left:81px;
+}
+
+#indie_box {
+	background-image:url(images/indietheater_box.png);
+	position:absolute;
+	width:412px;
+	height:66px;
+	z-index:4;
+	top:949px;
+	margin-left:81px;
+}
+
+#stronghold_box {
+	background-image:url(images/stronghold_box.png);
+	position:absolute;
+	width:412px;
+	height:66px;
+	z-index:4;
+	top:1089px;
+	margin-left:81px;
+}
+
+#body_holder_maps {
+	background-image:url(images/body_holder_maps.png);
+	position:absolute;
+	width:1049px;
+	height:598px;
+	top:713px;
+}
+
+#body_textmaps1 {
+	position:absolute;
+	top:66px;
+	margin-left:30px;
+	width:400px;
+	height:auto;
+}
+
+#body_textmaps2 {
+	position:absolute;
+	top:382px;
+	margin-left:30px;
+	width:400px;
+	height:auto;
+}
+
+#image5 {
+	background-image:url(images/conventioncentermap.png);
+	position:absolute;
+	width:395px;
+	height:303px;
+	top:721px;
+	margin-left:642px;
+}
+
+#image6 {
+	background-image:url(images/fishlens_pic.png);
+	position:absolute;
+	width:391px;
+	height:266px;
+	top:1024px;
+	margin-left:642px;
+}
+
+#maps_divider {
+	background-image:url(images/divider_maps.png);
+	position:absolute;
+	width:553px;
+	height:3px;
+	top:1025px;
+	margin-left:30px;
+}
+
+#maps_text1 {
+	background-image:url(images/OrangeCountryConventionCenterMap.png);
+	position:absolute;
+	width:458px;
+	height:30px;
+	top:733px;
+	margin-left:30px;
+}
+
+#maps_text2 {
+	background-image:url(images/NavigatingtheVenue.png);
+	position:absolute;
+	width:246px;
+	height:30px;
+	top:1051px;
+	margin-left:30px;
+}
+
+#large_map {
+	background-image:url(images/large_map.png);
+	position:absolute;
+	width:773px;
+	height:597px;
+	top:713px;
+	margin-left:142px;
+}
+
+#back_button a:link, #back_button a:visited {
+	position:absolute;
+	top:22px;
+	margin-left:930px;
+	width:auto;
+	height:auto;
+	font-size:24px;
+	color:#000;
+	text-decoration:none;
+}
+
+#body_holder_tickets {
+	background-image:url(images/body_holder_tickets.png);
+	position:absolute;
+	width:1049px;
+	height:559px;
+	top:728px;
+}
+
+#body_texttickets2 {
+	position:absolute;
+	top:333px;
+	margin-left:30px;
+	width:400px;
+	height:auto;
+}
+
+#image7 {
+	background-image:url(images/tickets_image1.png);
+	position:absolute;
+	width:230px;
+	height:217px;
+	top:761px;
+	margin-left:729px;
+}
+
+#image8 {
+	background-image:url(images/tickets_image2.png);
+	position:absolute;
+	width:360px;
+	height:262px;
+	top:1025px;
+	margin-left:678px;
+}
+
+#tickets_divider {
+	background-image:url(images/tickets_divider.png);
+	position:absolute;
+	width:586px;
+	height:3px;
+	top:999px;
+	margin-left:30px;
+}
+
+#tickets_text1 {
+	background-image:url(images/TicketPurchase.png);
+	position:absolute;
+	width:178px;
+	height:24px;
+	top:751px;
+	margin-left:30px;
+}
+
+#tickets_text2 {
+	background-image:url(images/HotelsAndAccommodations.png);
+	position:absolute;
+	width:328px;
+	height:24px;
+	top:1024px;
+	margin-left:30px;
+}
+
+#purchase_button {
+	background-image:url(images/purchase_button.png);
+	position:absolute;
+	width:216px;
+	height:56px;
+	top:879px;
+	margin-left:22px;
+}
+	
+#body_holder_news {
+	background-image:url(images/info_box_news.png);
+	position:absolute;
+	width:1049px;
+	height:559px;
+	top:728px;
+	margin-left:0px;
+}
+
+#body_textnews1 {
+	position:absolute;
+	top:65px;
+	margin-left:30px;
+	width:400px;
+	height:auto;
+}
+
+#body_textnews2 {
+	position:absolute;
+	top:344px;
+	margin-left:30px;
+	width:400px;
+	height:auto;
+}
+
+#image9 {
+	background-image:url(images/news_image1.png);
+	position:absolute;
+	width:229px;
+	height:280px;
+	top:730px;
+	margin-left:730px;
+}
+
+#image10 {
+	background-image:url(images/news_image2.png);
+	position:absolute;
+	width:404px;
+	height:281px;
+	top:999px;
+	margin-left:630px;
+}
+
+#news_divider {
+	background-image:url(images/divider_news.png);
+	position:absolute;
+	width:525px;
+	height:3px;
+	top:998px;
+	margin-left:29px;
+}
+
+#news_text1 {
+	background-image:url(images/news_text1.png);
+	position:absolute;
+	width:224px;
+	height:30px;
+	top:755px;
+	margin-left:29px;
+}
+
+#news_text2 {
+	background-image:url(images/news_text2.png);
+	position:absolute;
+	width:196px;
+	height:30px;
+	top:1030px;
+	margin-left:29px;
+}
+
+#body_holder_about {
+	background-image:url(images/body_holder_about.png);
+	position:absolute;
+	width:1049px;
+	height:559px;
+	top:731px;
+	margin-left:0;
+}
+
+#body_textabout1 {
+	position:absolute;
+	top:69px;
+	margin-left:30px;
+	width:300px;
+	height:auto;
+}
+
+#image11 {
+	background-image:url(images/about_image.png);
+	position:absolute;
+	width:557px;
+	height:338px;
+	top:786px;
+	margin-left:478px;
+}
+
+#about_text1 {
+	background-image:url(images/about_text.png);
+	position:absolute;
+	width:210px;
+	height:24px;
+	top:754px;
+	margin-left:30px;
+}
+
+#body_holder_guests {
+	background-image:url(images/body_holder_guests.png);
+	position:absolute;
+	width:1049px;
+	height:608px;
+	top:709px;
+	margin-left:0;
+}
+
+#image12 {
+	background-image:url(images/guests_image1.png);
+	position:absolute;
+	width:397px;
+	height:300px;
+	top:723px;
+	margin-left:623px;
+}
+
+#image13 {
+	background-image:url(images/guests_image2.png);
+	position:absolute;
+	width:403px;
+	height:304px;
+	top:1017px;
+	margin-left:623px;
+}
+
+#guests_text1 {
+	background-image:url(images/guests_text.png);
+	position:absolute;
+	width:170px;
+	height:30px;
+	top:730px;
+	margin-left:30px;
+}
+
+#footer_home {
+	position:absolute;
+	top:25px;
+	margin-left:23px;
+}
+
+#footer_guests {
+	position:absolute;
+	top:55px;
+	margin-left:23px;
+}
+
+#footer_schedule {
+	position:absolute;
+	top:85px;
+	margin-left:23px;
+}
+
+#footer_maps {
+	position:absolute;
+	top:115px;
+	margin-left:23px;
+}
+
+#footer_contact {
+	position:absolute;
+	top:25px;
+	margin-left:120px;
+}
+
+#footer_tickets {
+	position:absolute;
+	top:55px;
+	margin-left:120px;
+}
+
+#footer_news {
+	position:absolute;
+	top:85px;
+	margin-left:120px;
+}
+
+#footer_about {
+	position:absolute;
+	top:115px;
+	margin-left:120px;
+}
+
+#copyright {
+	position:absolute;
+	top:140px;
+	margin-left:904px;
+	word-spacing:8px;
+}

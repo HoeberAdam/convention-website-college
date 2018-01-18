@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Simple JAVA Slideshow-fin</title>
+
+<!-- ************************* CSS BEGINS HERE ************************** -->
+<link rel="stylesheet" type="text/css" href="file:///FLAXCAT/DES440_Advanced_Web/HoeberA_demo4/4-1/fin/css/style.css" />
+
+<!-- ************************* HEAD SCRIPTS BEGINS HERE ************************** -->
+<script type="text/javascript" src="file:///FLAXCAT/DES440_Advanced_Web/HoeberA_demo4/4-1/fin/js/slider_HEAD.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="container">
+		<div class="sliderbutton" id="slideleft" onclick="slideshow.move(-1)"></div>
+		<div id="slider">
+			<ul>
+				<li><img src="images/index_banner1.png" width="997" height="333" alt="Image One" /></li>
+				<li><img src="images/index_banner2.png" width="997" height="333" alt="Image Two" /></li>
+				<li><img src="images/index_banner3.png" width="998" height="335" alt="Image Three" /></li>
+				
+			</ul>
+		</div>
+        
+		<div class="sliderbutton" id="slideright" onclick="slideshow.move(1)"></div>
+		<ul id="pagination" class="pagination">
+			<li onclick="slideshow.pos(0)"></li>
+			<li onclick="slideshow.pos(1)"></li>
+			<li onclick="slideshow.pos(2)"></li>
+		</ul>
+	</div>
+</div>
+
+<!-- ************************* BODY SCRIPTS BEGINS HERE ************************** -->
+<script type="text/javascript" src="file:///FLAXCAT/DES440_Advanced_Web/HoeberA_demo4/4-1/fin/js/slider_BODY.js"></script>
+
+</body>
+</html>
